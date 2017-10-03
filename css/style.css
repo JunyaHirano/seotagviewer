@@ -1,0 +1,67 @@
+.chrome-nofollow-link {
+    border: 2px red dotted;
+}
+#chrome_nofollow_notify {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    font-size: 13px;
+    z-index: 9999;
+    line-height: 1.4;
+    vertical-align: baseline;
+    background: #222;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    margin: 0px;
+    opacity: 0.9;
+    overflow: visible;
+    overflow: hidden;
+    text-align: left !important;
+    color: #ccc !important;
+}
+    
+.chrome-nofollow-text-false {
+    color: gray;
+}
+.chrome-nofollow-text-true {
+    font-weight: 400;
+    color: red;
+}
+.chrome-canonical-false,
+.chrome-amp-false {
+    color: grey;
+}
+.chrome-canonical-same {
+    color: #CCC;
+}
+.chrome-canonical-exsist,
+.chrome-amp-exsist  {
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-weight: 400;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.chrome-amp-exsist em {
+    font-style: normal;
+    font-size:0.9em;
+    padding: 1px 3px;
+    color: #000;
+    background: -webkit-gradient(linear ,left top ,left bottom, from(#FFFFFF), to(#CCCCCC));
+    cursor: pointer;}
+.chrome-amp-exsist em:active {
+    background: -webkit-gradient(linear ,left top ,left bottom, from(#CCCCCC), to(#FFFFFF));}
+#chrome_nofollow_notify a {
+    text-decoration: underline !important; 
+    color: skyblue !important;
+}
+#chrome_nofollow_notify a:hover {
+    text-decoration: none !important;
+    color: skyblue !important;
+}

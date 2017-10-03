@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SEOTagViewer Options</title>
+  <style>
+    body: { padding: 10px; 
+    font-size: 1.2em;}
+    h2 {
+        line-height: 1.4;}
+    .message {
+      padding: 5px;
+      border: 1px solid red;
+    }
+  div.check-list {
+     line-height: 1.6;
+     margin-bottom: 15px;
+      font-size: 1.4em;}
+  div.check-list input{
+      cursor: pointer;
+      margin-right: 0.3em;
+      margin-bottom: 5px;}
+  div.check-list label{
+      padding: 0.2em 0.6em;
+      cursor: pointer;}
+  div.check-list label:hover {
+      background: rgba(255,253,200,1.00);}
+  button#save {
+      font-size: 1.4em;
+      }
+  </style>
+</head>
+<body>
+  <h2>Choose check items.<br />（表示する項目を選んでください）</h2>
+  <div class="check-list">
+  <label for="robots"><input type="checkbox" id="robots">Disallow (robots.txt)</label><br>
+  <label for="Canonical"><input type="checkbox" id="Canonical">Canonical</label><br>
+  <label for="Noindex"><input type="checkbox" id="Noindex">Noindex</label><br>
+  <label for="Nofollow"><input type="checkbox" id="Nofollow">Nofollow</label><br>
+  <label for="None"><input type="checkbox" id="None">None</label><br>
+  <label for="NoArchive"><input type="checkbox" id="NoArchive">NoArchive</label><br>
+  <label for="NoSnippet"><input type="checkbox" id="NoSnippet">NoSnippet</label><br>
+  <label for="NoImageIndex"><input type="checkbox" id="NoImageIndex">NoImageIndex</label><br>
+  <label for="AMP"><input type="checkbox" id="AMP">AMP</label>
+  </div>
+  <button id="save">Save</button>
+  <div id="status"></div>
+  <script src="./js/options.js"></script>
+</body>
+</html>
