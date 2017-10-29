@@ -27,7 +27,7 @@ function restore_options() {
         , NoArchive   : false
         , NoSnippet   : false
         , NoImageIndex: false
-        , AMP         : false
+        , AMP         : true
     }, function(items) {
         document.getElementById('robots').checked       = items.robots;
         document.getElementById('Canonical').checked    = items.Canonical;

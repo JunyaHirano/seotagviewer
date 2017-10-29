@@ -7,10 +7,10 @@ $(function() {
         , Canonical     : true
         , Noindex       : true
         , Nofollow      : true
-        , None          : true
-        , NoArchive     : true
-        , NoSnippet     : true
-        , NoImageIndex  : true
+        , None          : false
+        , NoArchive     : false
+        , NoSnippet     : false
+        , NoImageIndex  : false
         , AMP           : true
         , TagViewerValid: false
     }, function(items) {
